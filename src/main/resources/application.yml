@@ -1,0 +1,9 @@
+server:
+  port: 2101
+spring:
+  application:
+    name: springboot-elasticsearch-rest-demo
+  main:
+    allow-bean-definition-overriding: true
+elasticsearch:
+  ip: 192.168.0.132:9200
